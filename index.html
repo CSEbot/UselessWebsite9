@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bethesda Game Studios</title>
+  <style>
+    body {
+      background-color: #f1f1f1;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+    header button {
+      background-color: #fff;
+      color: #000;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    main {
+      padding: 20px;
+    }
+    .game-history {
+      background-color: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .game-history h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .game-history p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    .game-history img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+    footer {
+      background-color: #000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+    form h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    form input[type="text"],
+    form input[type="email"],
+    form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 5px;
+    }
+    form button {
+      background-color: #000;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <button>Home</button>
+    <button>Games</button>
+    <button>History</button>
+  </header>
+  <main>
+    <div class="game-history">
+      <h2>Bethesda Game Studios</h2>
+      <p>Bethesda Game Studios is a video game development studio based in Maryland. Founded in 1991, the studio is best known for its creation of the popular Fallout series.</p>
+      <img src="bethesda_logo.png" alt="Bethesda Logo">
+      <p>With a focus on immersive, open-world gameplay, Bethesda Game Studios has garnered a dedicated fan base over the years.</p>
+    </div>
+    <footer>
+      &copy; 2022 Bethesda Game Studios
+    </footer>
+    <form>
+      <h3>Contact Us</h3>
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message" rows="4" required></textarea>
+      <button>Submit</button>
+    </form>
+  </main>
+</body>
+</html>
